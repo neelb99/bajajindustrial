@@ -113,3 +113,9 @@ body{
 a:hover{
     text-decoration: none;
 }
+
+#spacetop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
