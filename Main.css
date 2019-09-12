@@ -84,3 +84,32 @@ body{
 #contact, #contactform{
     margin-top:30px;
 }
+
+.productcard{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+.container-fluid{
+    padding-bottom:20px;
+    
+}
+  
+/*Centering and reducing size of product card images*/
+.card-img-top{
+    margin:auto;
+    width:80%;
+}
+
+.card-title{
+    padding:20px;
+}
+
+#belowcards{
+    margin-top:40px;
+}
+
+a:hover{
+    text-decoration: none;
+}
