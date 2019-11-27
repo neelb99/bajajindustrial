@@ -36,11 +36,11 @@
         <div id="introcontent" class="text-center offset-md-2 col-md-4">
             <div id="contact">
                 <h1>Enquiry Form</h1>
-                <form name="contact" id = "contactform" data-netlify="true" action="POST" />
-                    <input placeholder="Name" type="text" name = "name" class = "form-control form-group" id = "name" required>
-                    <input placeholder="Email"type="email" name = "email" class = "form-control form-group" id = "email" required>
-                    <input placeholder="Number" type="text" name = "number" class = "form-control form-group" id = "number"required>
-                    <textarea placeholder="Requirement" form_id="contactform"  name = "requirement" class = "form-control form-group" id = "requirement" required></textarea>
+                <form name="contact" method="POST" data-netlify="true">
+                    <input name="name" placeholder="Name" type="text" class = "form-control form-group" id = "name" required>
+                    <input name="email" placeholder="Email"type="email" class = "form-control form-group" id = "email" required>
+                    <input name="number" placeholder="Number" type="text" class = "form-control form-group" id = "number"required>
+                    <textarea name="requirement" placeholder="Requirement" form_id="contactform" class = "form-control form-group" id = "requirement" required></textarea>
                     <input type = "submit" class = "btn btn-success">
                 </form>
             </div>
